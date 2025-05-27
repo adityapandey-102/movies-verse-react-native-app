@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "mobile_movies_app",
+    "name": "MovieVerse",
     "slug": "mobile_movies_app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "domain": "https://my-movie-app.dev",
+    "icon": "./assets/images/logo.png",
     "scheme": "mobilemoviesapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,22 +14,23 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.aditya12df.mobile_movies_app"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/logo.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/logo.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -37,6 +39,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c898ecae-11d3-4bbe-87f4-0e5bd9fb9350"
+      }
+    },
+    "owner": "aditya12df"
   }
 }
