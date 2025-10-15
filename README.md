@@ -74,9 +74,4 @@ eas build --profile production
 Powered by [TMDb](https://www.themoviedb.org/), [Appwrite](https://appwrite.io/), [Expo](https://expo.dev/), and [NativeWind](https://www.nativewind.dev/).
 
 ---
-
-<div align="center">
-  ⭐ Star this repo if you like it!  
-  <br>Made with ❤️ by <strong>Your Name</strong>
-</div>
 ```
